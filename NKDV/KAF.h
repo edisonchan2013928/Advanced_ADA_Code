@@ -1,0 +1,21 @@
+#pragma once
+#ifndef KAF_H
+#define KAF_H
+
+#include "Network.h"
+//#include "init.h"
+
+double kernel_value(model& our_model, double dist);
+double edge_KAF(model& our_model, int edge_index);
+void NKDV_basic(model& our_model);
+
+//Used in bucket-based aggregate distance augmentation (ADA^B+)
+void bucket_construction(model& our_model);
+int bucket_find_position(double value, model& our_model, Edge& e);
+
+//Used in aggregate distance augmentation (ADA)
+void augment_preprocess(model& our_model);
+//Used in interval augmentation (IA)
+void augment_interval_preprocess(model& our_model);
+
+#endif
