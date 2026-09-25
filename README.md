@@ -1,4 +1,4 @@
-# Introduction to Advanced_ADA
+# Introduction to Advanced_ADA_Code
 This is the implementation of our paper "Complexity-Reduced Algorithms for Network and Network-Temporal Kernel Density Visualization", which is submitted to the VLDB Journal.
 
 # How to Compile and Call Our Code?
